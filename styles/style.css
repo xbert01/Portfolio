@@ -71,45 +71,26 @@ section {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-    background-color: #27ae60;
 }
 
 .sec3 {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-          background-color: #bc16de;
 }
 
 .sec4 {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-          background-color: #aeae27;
 }
 
 .sec5 {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-          background-color: #e42424;
 }
 
-.active {
-  display: block;
-  animation: scaleAnim 1s ease-in-out;
-    
-}
-
-@keyframes scaleAnim{
-  0% {
-    transform: translateY(-100%) scaleY(0)
-  }
-  100% {
-    transform: translateY(0) scaleY(1)
-  }
-  
-}
 .controls {
   position: fixed;
   z-index: 10;
@@ -168,4 +149,7 @@ section {
   color: var(--color-grey-2);
   pointer-events: none;
 }
+
+/* Header */
+
 /*# sourceMappingURL=style.css.map */

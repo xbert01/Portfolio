@@ -6,7 +6,7 @@
 }
 
 :root {
-    --color-primary: #191d2b;
+    --color-primary: #19272b;
     --color-secondary: #27ae60;
     --color-white: #ffffff;
     --color-black: #000;
@@ -494,7 +494,21 @@ section {
     opacity: 1;
     transform: scale(1);
 }
-
+.items-description {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    justify-items: center;
+    .item-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+            margin-top: 2rem;
+        }
+    }
+}
 //Contact 
 .contact-container {
     width: 100%;

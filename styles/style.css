@@ -678,6 +678,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 70%;
 }
 
 .items-description .item-desc p {
@@ -949,6 +950,9 @@ section {
     margin-left: 0;
     margin-top: 1.5rem;
   }
+  .item-desc {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1070px) {
@@ -962,6 +966,11 @@ section {
   .portfolios {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+  }
+  .items-description {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 6rem;
   }
   .main-title h2 {
     font-size: 4rem;

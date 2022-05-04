@@ -103,6 +103,9 @@
         margin-left: 0;
         margin-top: 1.5rem;
     }
+    .item-desc {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1070px) {
@@ -115,6 +118,11 @@
 
     .portfolios {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .items-description {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
     }
 
 

@@ -7,8 +7,8 @@
 }
 
 :root {
-    --color-primary: #19272b;
-    --color-secondary: #27ae60;
+    --color-primary: #0C0F0A;
+    --color-secondary: #d5d913;
     --color-white: #ffffff;
     --color-black: #000;
     --color-grey-0: #f8f8f8;
@@ -147,7 +147,7 @@ section {
 .header-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 100%;
+    min-height: 100vh;
     .left-header {
         display: flex;
         align-items: center;

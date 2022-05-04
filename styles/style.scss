@@ -507,12 +507,16 @@ section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 70%;
+        background-color: var(--color-grey-6);
+        border-radius: 15px;
+        padding: 2.5rem 4rem;
+        width: 100%;
         p {
             margin-top: 2rem;
         }
     }
 }
+
 //Contact 
 .contact-container {
     width: 100%;

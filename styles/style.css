@@ -678,7 +678,10 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 70%;
+  background-color: var(--color-grey-6);
+  border-radius: 15px;
+  padding: 2.5rem 4rem;
+  width: 100%;
 }
 
 .items-description .item-desc p {

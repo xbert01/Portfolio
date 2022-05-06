@@ -144,6 +144,15 @@ section {
 
 /* header */
 
+.console {
+    color: rgb(255, 219, 144);
+}
+.log {
+    color: rgb(0, 213, 211);
+}
+.hello {
+    color: rgb(153, 232, 121);
+}
 .header-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -621,7 +630,7 @@ section {
         }
         .submit-btn {
             display: flex;
-            justify-content: flex-start;
+            justify-content: flex-end;
         }
     }
 }

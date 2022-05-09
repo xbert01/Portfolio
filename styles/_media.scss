@@ -1,77 +1,5 @@
-@media screen and (max-width: 600px) {
-  .about-container {
-    grid-template-columns: 1fr;
-    .right-about {
-      grid-template-columns: 1fr;
-      padding-top: 2.5rem;
-    }
-    .left-about {
-      padding-right: 0;
-      p {
-        padding-left: 0;
-      }
-    }
-  }
 
-  .portfolios {
-    grid-template-columns: 1fr;
-    padding-bottom: 2rem;
-  }
 
-  .items-description {
-    grid-template-columns: 1fr;
-    padding-bottom: 6rem;
-  }
-
-  .contact-content-con {
-    flex-direction: column;
-    .right-contact {
-      margin-left: 0;
-      margin-top: 2.5rem;
-    }
-  }
-  .contact-content-con .right-contact .i-c-2 {
-    flex-direction: column;
-  }
-  .contact-content-con .right-contact .i-c-2 :last-child {
-    margin-left: 0;
-    margin-top: 1.5rem;
-  }
-
-  .main-title {
-    h2 {
-      font-size: 2rem;
-      span {
-        font-size: 2.5rem;
-      }
-      .bg-text {
-        font-size: 3rem;
-      }
-    }
-  }
-
-  .progress-bars {
-    padding-bottom: 2rem;
-  }
-
-  .section {
-    padding: 2rem 2.5rem;
-  }
-
-  .controls {
-    top: auto;
-    bottom: 0;
-    flex-direction: row;
-    justify-content: center;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    background-color: var(--color-grey-5);
-    .control {
-      margin: 1rem 0.3rem;
-    }
-  }
-}
 
 @media screen and (max-width: 1610px) {
   header {
@@ -117,33 +45,6 @@
   
 }
 
-
-@media screen and (max-width: 1300px) {
-    .main-title {
-        h2 {
-          font-size: 4rem;
-          span {
-            font-size: 4rem;
-          }
-          .bg-text {
-            font-size: 5rem;
-          }
-        }
-      }
-}
-@media screen and (max-width: 1210px) {
-    .main-title {
-        h2 {
-          font-size: 4rem;
-          span {
-            font-size: 4rem;
-          }
-          .bg-text {
-            font-size: 4.5rem;
-          }
-        }
-      }
-}
 @media screen and (max-width: 1400px) {
   .about-container {
     grid-template-columns: 1fr;
@@ -159,7 +60,11 @@
   .items-description {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+    .item-desc {
+        width: 70%;
+    }
   }
+
 
   .main-title {
     h2 {
@@ -202,6 +107,7 @@
     margin: 0 auto;
     .name {
       font-size: 2.5rem !important;
+      padding-top: 4rem;
     }
   }
 
@@ -243,3 +149,121 @@
     }
   }
 }
+
+@media screen and (max-width: 650px) {
+    .portfolios {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .main-title {
+        h2 {
+          font-size: 4rem;
+          span {
+            font-size: 4rem;
+          }
+          .bg-text {
+            font-size: 5rem;
+          }
+        }
+      }
+}
+@media screen and (max-width: 1210px) {
+    .main-title {
+        h2 {
+          font-size: 4rem;
+          span {
+            font-size: 4rem;
+          }
+          .bg-text {
+            font-size: 4.5rem;
+          }
+        }
+      }
+      .items-description {
+        .item-desc {
+            width: 100%;
+        }
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .about-container {
+      grid-template-columns: 1fr;
+      .right-about {
+        grid-template-columns: 1fr;
+        padding-top: 2.5rem;
+      }
+      .left-about {
+        padding-right: 0;
+        p {
+          padding-left: 0;
+        }
+      }
+    }
+  
+    .portfolios {
+      grid-template-columns: 1fr;
+      padding-bottom: 2rem;
+    }
+  
+    .items-description {
+      grid-template-columns: 1fr;
+      padding-bottom: 6rem;
+    }
+  
+    .contact-content-con {
+      flex-direction: column;
+      .right-contact {
+        margin-left: 0;
+        margin-top: 2.5rem;
+      }
+    }
+    .contact-form {
+        padding-bottom: 3rem;
+    }
+    .contact-content-con .right-contact .i-c-2 {
+      flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child {
+      margin-left: 0;
+      margin-top: 1.5rem;
+    }
+  
+    .main-title {
+      h2 {
+        font-size: 2rem;
+        span {
+          font-size: 2rem;
+        }
+        .bg-text {
+          font-size: 2rem;
+        }
+      }
+    }
+  
+    .progress-bars {
+      padding-bottom: 2rem;
+    }
+  
+    .section {
+      padding: 2rem 2.5rem;
+    }
+  
+    .controls {
+      top: auto;
+      bottom: 0;
+      flex-direction: row;
+      justify-content: center;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      background-color: var(--color-grey-5);
+      .control {
+        margin: 1rem 0.3rem;
+      }
+    }
+  }
